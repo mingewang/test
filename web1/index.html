@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aisha Rahman | Student Resume</title>
+    <meta
+      name="description"
+      content="Modern student resume website for Aisha Rahman, featuring school info, favorite subjects, hobbies, and links."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">A.R</div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#subjects">Subjects</a>
+          <a href="#activities">Activities</a>
+          <a href="#links">Links</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero card">
+          <div class="hero-content">
+            <p class="eyebrow">Student Profile</p>
+            <h1>Aisha Rahman</h1>
+            <p class="subtitle">
+              Passionate learner, aspiring researcher, and creative problem-solver.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#links">View Links</a>
+              <a class="btn btn-secondary" href="#about">Learn More</a>
+            </div>
+          </div>
+          <div class="profile-badge" aria-label="Student profile card">
+            <div class="avatar">AR</div>
+            <div class="mini-card">
+              <span>School</span>
+              <strong>Maple Grove Academy</strong>
+            </div>
+            <div class="mini-card">
+              <span>Grade</span>
+              <strong>12th Grade</strong>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="info-grid">
+          <article class="card info-card">
+            <div class="section-tag">School</div>
+            <h2>Education</h2>
+            <p>
+              <strong>Maple Grove Academy</strong><br />
+              Senior Year • Science & Technology Track
+            </p>
+            <p>
+              Active member of the student council, robotics club, and volunteer
+              initiative program.
+            </p>
+          </article>
+
+          <article class="card info-card accent">
+            <div class="section-tag">Strengths</div>
+            <h2>Student Highlights</h2>
+            <ul>
+              <li>Consistent academic performance</li>
+              <li>Collaborative team leader</li>
+              <li>Curious and creative thinker</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="subjects" class="card section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Academic Focus</p>
+              <h2>Favorite Subjects</h2>
+            </div>
+          </div>
+
+          <div class="subject-grid">
+            <div class="subject-item">
+              <span class="icon">✦</span>
+              <h3>Mathematics</h3>
+              <p>Enjoy solving complex problems and understanding logical patterns.</p>
+            </div>
+            <div class="subject-item">
+              <span class="icon">🧬</span>
+              <h3>Biology</h3>
+              <p>Fascinated by life science, research, and real-world applications.</p>
+            </div>
+            <div class="subject-item">
+              <span class="icon">📚</span>
+              <h3>Literature</h3>
+              <p>Love writing, storytelling, and exploring different perspectives.</p>
+            </div>
+            <div class="subject-item">
+              <span class="icon">💻</span>
+              <h3>Computer Science</h3>
+              <p>Interested in coding, app design, and building practical solutions.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="activities" class="card section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Beyond the Classroom</p>
+              <h2>Hobbies & Activities</h2>
+            </div>
+          </div>
+
+          <div class="activity-list">
+            <div class="activity-item">
+              <span>🏐</span>
+              <div>
+                <h3>Volleyball</h3>
+                <p>Enjoy teamwork, discipline, and staying active.</p>
+              </div>
+            </div>
+            <div class="activity-item">
+              <span>🎨</span>
+              <div>
+                <h3>Art & Design</h3>
+                <p>Like sketching concepts and creating visually engaging ideas.</p>
+              </div>
+            </div>
+            <div class="activity-item">
+              <span>💡</span>
+              <div>
+                <h3>Robotics Club</h3>
+                <p>Build and test creative engineering projects with peers.</p>
+              </div>
+            </div>
+            <div class="activity-item">
+              <span>🌱</span>
+              <div>
+                <h3>Community Volunteering</h3>
+                <p>Participate in service projects and local outreach programs.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="links" class="card section-block links-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Connect</p>
+              <h2>Quick Links</h2>
+            </div>
+          </div>
+
+          <div class="links-grid">
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://portfolio.example.com" target="_blank" rel="noreferrer">Portfolio</a>
+            <a href="mailto:aisha.rahman@email.com">Email</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Aisha Rahman</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
